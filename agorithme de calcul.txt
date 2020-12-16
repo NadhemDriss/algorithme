@@ -1,0 +1,26 @@
+algorithme calcul
+
+
+variable 
+voyelle:integer:=0;
+mot:integer:=0;
+carac:=0;
+c:integer;
+
+
+
+begin 
+read(chaine);
+for(i:=0;i<chaine.length;i++)
+c:=chaine[i];
+swich(c) <>"."
+carac:=carac+1;
+case a: voyelle:=voyelle+1; break;
+case i: voyelle:=voyelle+1; break;
+case o: voyelle:=voyelle+1; break;
+case y: voyelle:=voyelle+1; break;
+case e: voyelle:=voyelle+1; break;
+case " ":mot:=mot+1;bread;
+end swich;
+end for;
+end.
